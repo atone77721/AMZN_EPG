@@ -29,6 +29,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Restore prime_livetv.py from secret
+        env:
+          PRIME_B64: ${{ secrets.PRIME_B64 }}
+        run: |
+          echo "$PRIME_B64" | base64 -d > prime_livetv.py
+          chmod +x prime_livetv.py
+          head -20 prime_livetv.py  # preview first lines for sanity
+
       - name: Build amazon.xml (LiveTV)
         env:
           PV_LIVETV_URLS: ${{ secrets.PV_LIVETV_URLS }}   # newline-separated LiveTV URLs
