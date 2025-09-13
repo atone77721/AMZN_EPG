@@ -29,17 +29,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Restore prime_livetv.py from secret
-        env:
-          PRIME_LIVETV_B64: ${{ secrets.PRIME_LIVETV_B64 }}
-        run: |
-          set -euo pipefail
-          if [ -z "${PRIME_LIVETV_B64:-}" ]; then
-            echo "Missing secret PRIME_LIVETV_B64"; exit 1
-          fi
-          echo "$PRIME_LIVETV_B64" | base64 -d > prime_livetv.py
-          chmod +x prime_livetv.py
-
       - name: Build amazon.xml (LiveTV)
         env:
           PV_LIVETV_URLS: ${{ secrets.PV_LIVETV_URLS }}   # newline-separated LiveTV URLs
@@ -49,37 +38,35 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Collect args
-          ARGS=( --timezone "America/Los_Angeles" --channel-id name -o data/amazon.xml )
           mkdir -p data
+          ARGS=( --timezone "America/Los_Angeles" --channel-id name -o data/amazon.xml )
 
           # Optional UA / Referer
           if [ -n "${PV_USER_AGENT:-}" ]; then ARGS+=( --user-agent "$PV_USER_AGENT" ); fi
           if [ -n "${PV_REFERER:-}" ]; then ARGS+=( --referer "$PV_REFERER" ); fi
 
-          # Cookie required for most accounts/regions
+          # Cookie
           if [ -n "${PV_COOKIE:-}" ]; then
             ARGS+=( --cookie "$PV_COOKIE" )
           else
             echo "Warning: PV_COOKIE is empty; request may fail due to auth."
           fi
 
-          # URLs (required)
+          # URLs
           if [ -z "${PV_LIVETV_URLS:-}" ]; then
-            echo "Missing secret PV_LIVETV_URLS (newline-separated LiveTV URLs)"; exit 1
+            echo "Missing secret PV_LIVETV_URLS"; exit 1
           fi
           while IFS=$'\n' read -r url; do
             [ -z "$url" ] && continue
             ARGS+=( --url "$url" )
           done <<< "$PV_LIVETV_URLS"
 
-          # Run
+          # Run script
           python prime_livetv.py "${ARGS[@]}"
 
       - name: Create amazon.xml.gz
         run: |
           set -euo pipefail
-          # Recreate gzip deterministically
           rm -f data/amazon.xml.gz
           gzip -9 -c data/amazon.xml > data/amazon.xml.gz
           ls -l data/amazon.xml data/amazon.xml.gz
