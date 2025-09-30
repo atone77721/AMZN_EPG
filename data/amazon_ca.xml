@@ -444,6 +444,14 @@
       <value>all</value>
     </rating>
   </programme>
+  <programme start="20251001005000 -0700" stop="20251001011200 -0700" channel="NBA">
+    <title lang="en">Top 50 Lob Dunks of '24-25 Season</title>
+    <desc lang="en">Countdown the top 50 lob dunks of the 2024-25 season!</desc>
+    <icon src="https://m.media-amazon.com/images/I/91qVW8JgwvL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>all</value>
+    </rating>
+  </programme>
   <channel id="Amazon.UFC">
     <display-name lang="en">UFC</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/UFC._SL170_FMpng_.png" />
@@ -1032,6 +1040,14 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001004900 -0700" stop="20251001014400 -0700" channel="TNA Wrestling Channel">
+    <title lang="en">Xplosion</title>
+    <desc lang="en">Highlights and matches from IMPACT; interviews with IMPACT superstars.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81Wfb0KVJhL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.UEFA.Champions.League">
     <display-name lang="en">UEFA Champions League</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/UEFA_Champ_16x9_white._SL170_FMpng_.png" />
@@ -1604,14 +1620,6 @@
     <display-name lang="en">TEAM USA</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/Team_USA_19X9_White._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930133300 -0700" stop="20250930164800 -0700" channel="TEAM USA">
-    <title lang="en">Olympic Classics</title>
-    <desc lang="en">Beijing 2008 - Women's Soccer Finals.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91hUIGsNvtL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
   <programme start="20250930164800 -0700" stop="20250930175200 -0700" channel="TEAM USA">
     <title lang="en">Olympic Classics</title>
     <desc lang="en">Beijing 2008 - Women's Beach Volleyball Finals.</desc>
@@ -3472,6 +3480,14 @@
       <value>16+</value>
     </rating>
   </programme>
+  <programme start="20251001005000 -0700" stop="20251001013900 -0700" channel="Vice News">
+    <title lang="en">Inside Rights</title>
+    <desc lang="en">Gianna Toboni discusses abortion rights.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1xKTrH3xDL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Business.Insider">
     <display-name lang="en">Business Insider</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/businessinsider._SL170_FMpng_.png" />
@@ -4044,14 +4060,6 @@
     <display-name lang="en">Dateline 24/7</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/dateline._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930151900 -0700" stop="20250930165600 -0700" channel="Dateline 24/7">
-    <title lang="en">Finding Venus</title>
-    <desc lang="en">A mother of two mysteriously vanishes.</desc>
-    <icon src="https://m.media-amazon.com/images/I/9160h9PBJBL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
   <programme start="20250930165600 -0700" stop="20250930174400 -0700" channel="Dateline 24/7">
     <title lang="en">Someone Was Out There</title>
     <desc lang="en">Two women are targets of crime.</desc>
@@ -4108,18 +4116,18 @@
       <value>16+</value>
     </rating>
   </programme>
+  <programme start="20251001005200 -0700" stop="20251001014000 -0700" channel="Dateline 24/7">
+    <title lang="en">Someone Was Out There</title>
+    <desc lang="en">Two women are targets of crime.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1C7ORKYEnL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.BET.x.Tyler.Perry.Comedy">
     <display-name lang="en">BET x Tyler Perry Comedy</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/tyler_perry_comedy._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163100 -0700" stop="20250930165500 -0700" channel="BET x Tyler Perry Comedy">
-    <title lang="en">Number Five's Fight</title>
-    <desc lang="en">After C.J. has to lay off firefighters, Roland must use his PR skills to avoid altercation.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1JY6L+UDtL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
   <programme start="20250930165500 -0700" stop="20250930172000 -0700" channel="BET x Tyler Perry Comedy">
     <title lang="en">My Fair Curtis</title>
     <desc lang="en">Floyd tries to win Claretha back.</desc>
@@ -4272,18 +4280,18 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001004800 -0700" stop="20251001011300 -0700" channel="BET x Tyler Perry Comedy">
+    <title lang="en">Meet the Campers</title>
+    <desc lang="en">Joaquin is scared to go camping.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81NOiMOVrXL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Judy.Justice">
     <display-name lang="en">Judy Justice</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/Freevee_Judy_Justice_1920x1080._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163100 -0700" stop="20250930165500 -0700" channel="Judy Justice">
-    <title lang="en">Hunting the Cheating Husband</title>
-    <desc lang="en">A woman sues after a car crash.</desc>
-    <icon src="https://m.media-amazon.com/images/I/C1Mm9wRtmNL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
   <programme start="20250930165500 -0700" stop="20250930172100 -0700" channel="Judy Justice">
     <title lang="en">Incarcerated Injustice and Kitchen Nightmares</title>
     <desc lang="en">A yoga instructor sues her ex-roommate.</desc>
@@ -4440,14 +4448,6 @@
     <display-name lang="en">Paternity Court</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/paternity_court._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163400 -0700" stop="20250930165600 -0700" channel="Paternity Court">
-    <title lang="en">Hollins/Williams vs. Anderson</title>
-    <desc lang="en">Mom slept with two men a day apart.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1hEP03XJSL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
   <programme start="20250930165600 -0700" stop="20250930171800 -0700" channel="Paternity Court">
     <title lang="en">Nesbitt vs. Henderson/Brown Jr.</title>
     <desc lang="en">The neighbor or the ex-boyfriend.</desc>
@@ -4860,6 +4860,14 @@
       <value>16+</value>
     </rating>
   </programme>
+  <programme start="20251001005644 -0700" stop="20251001014609 -0700" channel="I  (Almost) Got Away With It">
+    <title lang="en">GOT to Be a Ladies' Man</title>
+    <desc lang="en">A career criminal lands back in prison, where he pulls off a daring escape.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1lniOKEs1L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.20/20">
     <display-name lang="en">20/20</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/2020_Logo_White_16x9._SL170_FMpng_.png" />
@@ -4915,6 +4923,14 @@
   <programme start="20251001000000 -0700" stop="20251001005300 -0700" channel="20/20">
     <title lang="en">Til Death Do Us Part</title>
     <desc lang="en">11/30/2018: A woman convicted of killing her husband claims she blacked out during the murder.</desc>
+    <icon src="https://m.media-amazon.com/images/I/C1XvHRIOKqL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>13+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005300 -0700" stop="20251001014500 -0700" channel="20/20">
+    <title lang="en">Murder in the Mansion</title>
+    <desc lang="en">10/26/2018: 20/20 updates its 2015 story on Daron Wint.</desc>
     <icon src="https://m.media-amazon.com/images/I/C1XvHRIOKqL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>13+</value>
@@ -5156,18 +5172,18 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001005117 -0700" stop="20251001014050 -0700" channel="The Repair Shop">
+    <title lang="en">Hawaiian Guitar, Fishing Reel, Pogo the Pig</title>
+    <desc lang="en">Three sentimental items, including an old fishing reel, are thrown a lifeline.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B19vaMuobuL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Locked.Up.Abroad">
     <display-name lang="en">Locked Up Abroad</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/LockedUpAbroad_white_logo_3840x2160_16x9._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930155300 -0700" stop="20250930165200 -0700" channel="Locked Up Abroad">
-    <title lang="en">Cuba</title>
-    <desc lang="en">Smuggling cocaine through Cuba.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1NCioOnLfL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
   <programme start="20250930165200 -0700" stop="20250930175100 -0700" channel="Locked Up Abroad">
     <title lang="en">Barbados</title>
     <desc lang="en">A pregnant woman is jailed in Barbados.</desc>
@@ -5396,6 +5412,14 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001005100 -0700" stop="20251001011700 -0700" channel="Storage Wars">
+    <title lang="en">No Bid for the Weary</title>
+    <desc lang="en">Barry and Kenny get fired up.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81CkhNbEC9L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Dr..Phil.Primetime.on.Merit.Street">
     <display-name lang="en">Dr. Phil Primetime on Merit Street</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/Dr_Phil_primetime_on_merittv._SL170_FMpng_.png" />
@@ -5492,14 +5516,6 @@
     <display-name lang="en">According to Jim</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/AccordingToJim_01_Logo_White_16x9._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930162200 -0700" stop="20250930164800 -0700" channel="According to Jim">
-    <title lang="en">You Gotta Love Somebody</title>
-    <desc lang="en">Cheryl and Jim discover their memories conflict.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91A8u1+VmfL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
   <programme start="20250930164800 -0700" stop="20250930171500 -0700" channel="According to Jim">
     <title lang="en">You Gotta Love Somebody</title>
     <desc lang="en">Cheryl and Jim differ.</desc>
@@ -5639,6 +5655,14 @@
   <programme start="20251001002000 -0700" stop="20251001004700 -0700" channel="According to Jim">
     <title lang="en">Scary Movie</title>
     <desc lang="en">Gracie and Ruby have nightmares.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91FgIIQzOXL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20251001004700 -0700" stop="20251001011500 -0700" channel="According to Jim">
+    <title lang="en">The Imaginary Friend</title>
+    <desc lang="en">Jim invents an imaginary friend.</desc>
     <icon src="https://m.media-amazon.com/images/I/91FgIIQzOXL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
@@ -5788,14 +5812,6 @@
     <display-name lang="en">America's Got Talent</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/AGT_LogoArt_1920x1080._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930143600 -0700" stop="20250930165200 -0700" channel="America's Got Talent">
-    <title lang="en">AGT's Magical Showstoppers</title>
-    <desc lang="en">These illusionists, mentalists, and sleight-of-hand masters left audiences shocked.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1EyMoJQX1L._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
   <programme start="20250930165200 -0700" stop="20250930191000 -0700" channel="America's Got Talent">
     <title lang="en">Musicians Who Rocked AGT</title>
     <desc lang="en">Singers and instrumentalists impress.</desc>
@@ -5824,6 +5840,14 @@
     <title lang="en">Epic Dance Moves on AGT</title>
     <desc lang="en">Professional dancers deliver their routines on stage.</desc>
     <icon src="https://m.media-amazon.com/images/I/B1oASx8ETTL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005500 -0700" stop="20251001020200 -0700" channel="America's Got Talent">
+    <title lang="en">Best of the Best on AGT</title>
+    <desc lang="en">A roundup of the best AGT acts ever, unforgettable performances that defined the show's greatest moments.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91CeWhFE3iL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
@@ -6000,14 +6024,6 @@
     <display-name lang="en">SpongeBob SquarePants Universe</display-name>
     <icon src="https://m.media-amazon.com/images/G/03/digital/video/merch/subs/benefit-id/a-f/esports1/logos/Spongebob_US._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930162700 -0700" stop="20250930165000 -0700" channel="SpongeBob SquarePants Universe">
-    <title lang="en">Lost in Bikini Bottom; Tutor Sauce</title>
-    <desc lang="en">SpongeBob gets lost.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1WlXC3VbFL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
   <programme start="20250930165000 -0700" stop="20250930171300 -0700" channel="SpongeBob SquarePants Universe">
     <title lang="en">Dopey Dick; Plankton and the Beanstalk</title>
     <desc lang="en">Squidward joins a crew of sailors.</desc>
@@ -6180,14 +6196,6 @@
     <display-name lang="en">South Park</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/SPK_1920x1080._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163300 -0700" stop="20250930165500 -0700" channel="South Park">
-    <title lang="en">Pandemic 2: The Startling</title>
-    <desc lang="en">Giant guinea pigs attack the city.</desc>
-    <icon src="https://m.media-amazon.com/images/I/816yzFDxg-L._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>18+</value>
-    </rating>
-  </programme>
   <programme start="20250930165500 -0700" stop="20250930171800 -0700" channel="South Park">
     <title lang="en">Butterballs</title>
     <desc lang="en">Butter is the victim of a bully.</desc>
@@ -6360,14 +6368,6 @@
     <display-name lang="en">PAW Patrol</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/PPLUSPAW_1920x1080._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163200 -0700" stop="20250930165500 -0700" channel="PAW Patrol">
-    <title lang="en">Pups Save a Box Fort; Pups Save Travelin' Travis From Really Big Bill</title>
-    <desc lang="en">The Pups must save Rocky and Humdinger.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1V+PIMLU5L._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>all</value>
-    </rating>
-  </programme>
   <programme start="20250930165500 -0700" stop="20250930171900 -0700" channel="PAW Patrol">
     <title lang="en">Pups Leave Marshall Home Alone; Pups Save the Deer</title>
     <desc lang="en">Marshall handles a rescue on his own.</desc>
@@ -6772,6 +6772,14 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001005300 -0700" stop="20251001013700 -0700" channel="Survivor">
+    <title lang="en">The Beginning of the End</title>
+    <desc lang="en">Contestants consider big moves.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81aFIIWahYL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Star.Trek">
     <display-name lang="en">Star Trek</display-name>
     <icon src="https://m.media-amazon.com/images/G/03/digital/video/merch/subs/benefit-id/a-f/esports1/logos/Star_Trek_US._SL170_FMpng_.png" />
@@ -6872,6 +6880,14 @@
       <value>16+</value>
     </rating>
   </programme>
+  <programme start="20251001004900 -0700" stop="20251001013400 -0700" channel="Star Trek">
+    <title lang="en">Masks</title>
+    <desc lang="en">An ancient culture takes over Data.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1o80vdnmVL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Reality.TV:.Shores">
     <display-name lang="en">Reality TV: Shores</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/PPLUSSHOR_1920x1080._CB1198675309_SL170_FMpng_.png" />
@@ -6959,6 +6975,14 @@
   <programme start="20251001001500 -0700" stop="20251001005600 -0700" channel="Reality TV: Shores">
     <title lang="en">Like More Than a Friend</title>
     <desc lang="en">Deena and Pauly consider consequences.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1AKrRj8NBL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005600 -0700" stop="20251001013700 -0700" channel="Reality TV: Shores">
+    <title lang="en">Twinning</title>
+    <desc lang="en">Deena pulls "the robbery."</desc>
     <icon src="https://m.media-amazon.com/images/I/A1AKrRj8NBL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
@@ -7056,18 +7080,18 @@
       <value>13+</value>
     </rating>
   </programme>
+  <programme start="20251001005600 -0700" stop="20251001013700 -0700" channel="The Challenge">
+    <title lang="en">Bank Rolling in the Deep</title>
+    <desc lang="en">Three teams remain and battle it out.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1wjF9kNTwL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>13+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Animation.Favorites">
     <display-name lang="en">Animation Favorites</display-name>
     <icon src="https://m.media-amazon.com/images/G/03/digital/video/merch/subs/benefit-id/a-f/esports1/logos/Animation_Favorites_US._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163400 -0700" stop="20250930165700 -0700" channel="Animation Favorites">
-    <title lang="en">Mutiny on the Krusty; The Whole Tooth</title>
-    <desc lang="en">A storm sweeps the Krusty Krab away.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1WlXC3VbFL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
   <programme start="20250930165700 -0700" stop="20250930172100 -0700" channel="Animation Favorites">
     <title lang="en">What Ever Happened to SpongeBob</title>
     <desc lang="en">SpongeBob's friends must search for him.</desc>
@@ -7231,6 +7255,14 @@
   <programme start="20251001003200 -0700" stop="20251001005500 -0700" channel="Animation Favorites">
     <title lang="en">The Haunting of Star House; Who's a Big Boy?</title>
     <desc lang="en">Patrick hires ghosts to haunt his house.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1G+B7U4oaL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005500 -0700" stop="20251001011800 -0700" channel="Animation Favorites">
+    <title lang="en">The Starry Awards; Blorpsgiving</title>
+    <desc lang="en">Captain Doug meets Pat-Tron's family.</desc>
     <icon src="https://m.media-amazon.com/images/I/A1G+B7U4oaL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
@@ -7424,18 +7456,18 @@
       <value>7+</value>
     </rating>
   </programme>
-  <channel id="Amazon.Kids.&amp;.Family.Fun">
-    <display-name lang="en">Kids &amp; Family Fun</display-name>
-    <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/PPLUSKIDFV_1920x1080._CB1198675309_SL170_FMpng_.png" />
-  </channel>
-  <programme start="20250930163200 -0700" stop="20250930165500 -0700" channel="Kids &amp; Family Fun">
-    <title lang="en">Chutes and Splatters</title>
-    <desc lang="en">Phoebe must baby-sit a troublemaker.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81SSXJjQx3L._UR688,387_FMpng_.jpg" />
+  <programme start="20251001005500 -0700" stop="20251001011700 -0700" channel="Black Voices">
+    <title lang="en">The Birthday</title>
+    <desc lang="en">Celebrate the twins' birthday.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81HYCyH9kNL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>all</value>
     </rating>
   </programme>
+  <channel id="Amazon.Kids.&amp;.Family.Fun">
+    <display-name lang="en">Kids &amp; Family Fun</display-name>
+    <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/PPLUSKIDFV_1920x1080._CB1198675309_SL170_FMpng_.png" />
+  </channel>
   <programme start="20250930165500 -0700" stop="20250930171700 -0700" channel="Kids &amp; Family Fun">
     <title lang="en">Breaking Dad</title>
     <desc lang="en">Hank teaches at Max and Phoebe's school.</desc>
@@ -7760,18 +7792,18 @@
       <value>7+</value>
     </rating>
   </programme>
-  <channel id="Amazon.90s.Sitcom">
-    <display-name lang="en">90s Sitcom</display-name>
-    <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/90s_Sitcom_LT._SL170_FMpng_.png" />
-  </channel>
-  <programme start="20250930163100 -0700" stop="20250930165600 -0700" channel="90s Sitcom">
-    <title lang="en">Three Dates and a Breakup</title>
-    <desc lang="en">Martin and Sherry end their affair.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91xII7Fv9ML._UR688,387_FMpng_.jpg" />
+  <programme start="20251001004700 -0700" stop="20251001011200 -0700" channel="80s Sitcom">
+    <title lang="en">Strange Bedfellows</title>
+    <desc lang="en">Sam's affair with Janet heats up.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81bnrimz--L._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
   </programme>
+  <channel id="Amazon.90s.Sitcom">
+    <display-name lang="en">90s Sitcom</display-name>
+    <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/90s_Sitcom_LT._SL170_FMpng_.png" />
+  </channel>
   <programme start="20250930165600 -0700" stop="20250930171700 -0700" channel="90s Sitcom">
     <title lang="en">Shutout in Seattle</title>
     <desc lang="en">Romantic entanglements.</desc>
@@ -7952,14 +7984,6 @@
     <display-name lang="en">24/7 Laughs</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/247_laughs._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163100 -0700" stop="20250930165100 -0700" channel="24/7 Laughs">
-    <title lang="en">Chanel and Sterling XXVI</title>
-    <desc lang="en">Chanel and Sterling.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91yEfs8vMwL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
   <programme start="20250930165100 -0700" stop="20250930171100 -0700" channel="24/7 Laughs">
     <title lang="en">DJ Paul</title>
     <desc lang="en">DJ Paul; "Zap Happy"; "Jugg Life."</desc>
@@ -8144,6 +8168,14 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001005700 -0700" stop="20251001011900 -0700" channel="24/7 Laughs">
+    <title lang="en">The Love You Fake</title>
+    <desc lang="en">Martin dates neighbor's mother.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A12w5VinzpL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Preschool.Corner">
     <display-name lang="en">Preschool Corner</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/PPLUSPRECO_1920x1080._SL170_FMpng_.png" />
@@ -8316,6 +8348,14 @@
       <value>all</value>
     </rating>
   </programme>
+  <programme start="20251001005200 -0700" stop="20251001011400 -0700" channel="Preschool Corner">
+    <title lang="en">Toucan Do It!</title>
+    <desc lang="en">Blaze his friends play jungle ball.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81ufb6OA5nL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>all</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Crime.&amp;.Justice">
     <display-name lang="en">Crime &amp; Justice</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/crime_and_justice._SL170_FMpng_.png" />
@@ -8420,14 +8460,6 @@
     <display-name lang="en">TV Classics</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/PPLUSTVC_1920x1080._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930162800 -0700" stop="20250930165400 -0700" channel="TV Classics">
-    <title lang="en">The Fox Hunt</title>
-    <desc lang="en">Lucy's jealousy may disrupt a fox-hunt.</desc>
-    <icon src="https://m.media-amazon.com/images/I/61GEWTapMaL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>all</value>
-    </rating>
-  </programme>
   <programme start="20250930165400 -0700" stop="20250930171900 -0700" channel="TV Classics">
     <title lang="en">The Adagio</title>
     <desc lang="en">Lucy applies for a job.</desc>
@@ -8568,18 +8600,18 @@
       <value>16+</value>
     </rating>
   </programme>
+  <programme start="20251001005700 -0700" stop="20251001013800 -0700" channel="Reality TV: Competition">
+    <title lang="en">The Curse of the Black Skull</title>
+    <desc lang="en">The cast faces the Elimination Jungle.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91T0cXUW1ZL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.All.Day.Drama">
     <display-name lang="en">All Day Drama</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/all_day_drama._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930160800 -0700" stop="20250930164700 -0700" channel="All Day Drama">
-    <title lang="en">Day 485</title>
-    <desc lang="en">Jay is arrested on a fraudulent charge while going to court.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81Q2Q0BEuJL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>18+</value>
-    </rating>
-  </programme>
   <programme start="20250930164700 -0700" stop="20250930174200 -0700" channel="All Day Drama">
     <title lang="en">Day 492</title>
     <desc lang="en">Lucca goes into early labour.</desc>
@@ -8652,111 +8684,19 @@
       <value>16+</value>
     </rating>
   </programme>
-  <channel id="Amazon.Lakeshore.PBS.(PBS.WYIN)">
-    <display-name lang="en">Lakeshore PBS (PBS WYIN)</display-name>
-    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/WYIN_Logo_Horizontal_White-One-Color._SL170_FMpng_.png" />
+  <channel id="Amazon.Iowa.PBS.(PBS.KDIN)">
+    <display-name lang="en">Iowa PBS (PBS KDIN)</display-name>
+    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/KDIN_Logo_Horizontal_White-One-Color._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163000 -0700" stop="20250930170000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">2025 Volkswagen Tiguan</title>
-    <desc lang="en">Volkswagen Tiguan; review of BMW M235.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1AyaaoLBpL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930163000 -0700" stop="20250930170000 -0700" channel="Iowa PBS (PBS KDIN)">
+    <title lang="en">Iowa Life</title>
+    <desc lang="en">Loess Hills National Scenic Byway South.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1x1I5lc3JL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>all</value>
     </rating>
   </programme>
-  <programme start="20250930170000 -0700" stop="20250930173000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">Asheville Rebuilds</title>
-    <desc lang="en">Families rebuild after a hurricane.</desc>
-    <icon src="https://m.media-amazon.com/images/I/C1KcunhvGsL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>all</value>
-    </rating>
-  </programme>
-  <programme start="20250930173000 -0700" stop="20250930180000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">NOLA Lantern; Rusty Patio Set</title>
-    <desc lang="en">NOLA copper lantern fixtures.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B16hgtbcccL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>all</value>
-    </rating>
-  </programme>
-  <programme start="20250930180000 -0700" stop="20250930190000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">Death on the Close: Part 1</title>
-    <desc lang="en">A man with no ID is found dead.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1DkObWHI2L._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20250930190000 -0700" stop="20250930200000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">Unforgotten on Masterpiece</title>
-    <desc lang="en">Jess plans a conversation with Steve.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81o0PA9jxlL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20250930200000 -0700" stop="20250930203000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">BBC News</title>
-    <desc lang="en">Twenty-four hours a day, the latest national and international stories as they break.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91OgFRAztWL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
-  <programme start="20250930203000 -0700" stop="20250930210000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">The Day</title>
-    <desc lang="en">A daily news summary from Europe with anchor Brent Goff.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71WjCyEQUhL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
-  <programme start="20250930210000 -0700" stop="20250930220000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">Colm Tóibín &amp; Silas House</title>
-    <desc lang="en">Novelist Colm Tóibín.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81HlpaPvCFL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>all</value>
-    </rating>
-  </programme>
-  <programme start="20250930220000 -0700" stop="20250930230000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">Democracy Now!</title>
-    <desc lang="en">Independent news program features those affected by world events and U.S. policy.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81TAsVUhxrL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
-  <programme start="20250930230000 -0700" stop="20251001000000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">Amanpour and Company</title>
-    <desc lang="en">Christiane Amanpour leads discussions about world issues and interviews with global leaders.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91LEONIVKbL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
-  <programme start="20251001000000 -0700" stop="20251001020000 -0700" channel="Lakeshore PBS (PBS WYIN)">
-    <title lang="en">Ken Burns: The Civil War</title>
-    <desc lang="en">"The Civil War" 25th anniversary.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71guNZQlZ2L._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
-  <channel id="Amazon.WTTW.(PBS.WTTW)">
-    <display-name lang="en">WTTW (PBS WTTW)</display-name>
-    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/WTTW_Logo_Horizontal_White-One-Color._SL170_FMpng_.png" />
-  </channel>
-  <programme start="20250930160000 -0700" stop="20250930170000 -0700" channel="WTTW (PBS WTTW)">
-    <title lang="en">PBS News Hour</title>
-    <desc lang="en">Amna Nawaz and Geoff Bennett offer in-depth analysis of current events.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1OvOsnu9AL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
-  <programme start="20250930170000 -0700" stop="20250930180000 -0700" channel="WTTW (PBS WTTW)">
+  <programme start="20250930170000 -0700" stop="20250930180000 -0700" channel="Iowa PBS (PBS KDIN)">
     <title lang="en">Latin Roots</title>
     <desc lang="en">Rubén Blades; Natalie Morales.</desc>
     <icon src="https://m.media-amazon.com/images/I/911ovuOc94L._UR688,387_FMpng_.jpg" />
@@ -8764,7 +8704,7 @@
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930180000 -0700" stop="20250930193000 -0700" channel="WTTW (PBS WTTW)">
+  <programme start="20250930180000 -0700" stop="20250930193000 -0700" channel="Iowa PBS (PBS KDIN)">
     <title lang="en">The Hard Hat Riot</title>
     <desc lang="en">Riot erupts in downtown New York.</desc>
     <icon src="https://m.media-amazon.com/images/I/91xzUS2lJVL._UR688,387_FMpng_.jpg" />
@@ -8772,7 +8712,7 @@
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930193000 -0700" stop="20250930200000 -0700" channel="WTTW (PBS WTTW)">
+  <programme start="20250930193000 -0700" stop="20250930200000 -0700" channel="Iowa PBS (PBS KDIN)">
     <title lang="en">The American Revolution: An Inside Look</title>
     <desc lang="en">A look at the American Revolution.</desc>
     <icon src="https://m.media-amazon.com/images/I/91MZG4mZgKL._UR688,387_FMpng_.jpg" />
@@ -8780,52 +8720,52 @@
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930200000 -0700" stop="20250930203000 -0700" channel="WTTW (PBS WTTW)">
-    <title lang="en">Chicago Tonight</title>
-    <desc lang="en">News relevant to diverse local and national audiences.</desc>
-    <icon src="https://m.media-amazon.com/images/I/817RxMBODIL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930200000 -0700" stop="20250930210000 -0700" channel="Iowa PBS (PBS KDIN)">
+    <title lang="en">Lafayette: The Lost Hero</title>
+    <desc lang="en">Marquis de Lafayette.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91tjmHXLGNL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930203000 -0700" stop="20250930210000 -0700" channel="WTTW (PBS WTTW)">
-    <title lang="en">BBC News</title>
-    <desc lang="en">International issues.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81alkWPBjxL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>all</value>
-    </rating>
-  </programme>
-  <programme start="20250930210000 -0700" stop="20250930220000 -0700" channel="WTTW (PBS WTTW)">
-    <title lang="en">Amanpour and Company</title>
-    <desc lang="en">Christiane Amanpour leads discussions about world issues and interviews with global leaders.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91LEONIVKbL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930210000 -0700" stop="20250930220000 -0700" channel="Iowa PBS (PBS KDIN)">
+    <title lang="en">The Blacktrees Prophecy: Part 1</title>
+    <desc lang="en">Survivalists flock to Blacktrees Forest.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81BS7JXEbUL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930220000 -0700" stop="20250930230000 -0700" channel="WTTW (PBS WTTW)">
-    <title lang="en">Vintage Raleigh 2025 Hour 1</title>
-    <desc lang="en">Andre Dugo Art Deco maquettes.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81LeCyT3jIL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930220000 -0700" stop="20250930230000 -0700" channel="Iowa PBS (PBS KDIN)">
+    <title lang="en">PBS News Hour</title>
+    <desc lang="en">Amna Nawaz and Geoff Bennett offer in-depth analysis of current events.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1OvOsnu9AL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20250930230000 -0700" stop="20250930233000 -0700" channel="Iowa PBS (PBS KDIN)">
+    <title lang="en">Euromaxx</title>
+    <desc lang="en">Pompeii; handmade wooden clogs.</desc>
+    <icon src="https://m.media-amazon.com/images/I/71M10rNX+EL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>all</value>
     </rating>
   </programme>
-  <programme start="20250930230000 -0700" stop="20251001000000 -0700" channel="WTTW (PBS WTTW)">
-    <title lang="en">Vintage Orlando Hour 1</title>
-    <desc lang="en">James McNeill Whistler artwork.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1d6Prju8sL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930233000 -0700" stop="20251001000000 -0700" channel="Iowa PBS (PBS KDIN)">
+    <title lang="en">Iowa Life</title>
+    <desc lang="en">Loess Hills National Scenic Byway South.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1x1I5lc3JL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>all</value>
     </rating>
   </programme>
-  <programme start="20251001000000 -0700" stop="20251001010000 -0700" channel="WTTW (PBS WTTW)">
-    <title lang="en">Threads in the American Tapestry</title>
-    <desc lang="en">How Latino DNA helped shape the U.S.</desc>
-    <icon src="https://m.media-amazon.com/images/I/C19mksMQ9xL._UR688,387_FMpng_.jpg" />
+  <programme start="20251001000000 -0700" stop="20251001010000 -0700" channel="Iowa PBS (PBS KDIN)">
+    <title lang="en">Latin Roots</title>
+    <desc lang="en">Rubén Blades; Natalie Morales.</desc>
+    <icon src="https://m.media-amazon.com/images/I/911ovuOc94L._UR688,387_FMpng_.jpg" />
     <rating system="us">
-      <value>16+</value>
+      <value>7+</value>
     </rating>
   </programme>
   <channel id="Amazon.Las.Vegas">
@@ -9164,6 +9104,14 @@
       <value>16+</value>
     </rating>
   </programme>
+  <programme start="20251001005300 -0700" stop="20251001014300 -0700" channel="CW Forever">
+    <title lang="en">The Infinity Thief</title>
+    <desc lang="en">Ellis and Max become partners.</desc>
+    <icon src="https://m.media-amazon.com/images/I/C1iVir9-DDL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.MrBeast">
     <display-name lang="en">MrBeast</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/mr_beast._SL170_FMpng_.png" />
@@ -9300,6 +9248,14 @@
     <title lang="en">100 Assassins vs 10 Real Soldiers</title>
     <desc lang="en">Can Real Soldiers Protect Beast in Special GTA Mod?</desc>
     <icon src="https://m.media-amazon.com/images/I/81rU62vS4wL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005800 -0700" stop="20251001011400 -0700" channel="MrBeast">
+    <title lang="en">Extreme Try Not To Laugh Challenge_Five Lives</title>
+    <desc lang="en">Attempt the impossible try not to laugh challenge!</desc>
+    <icon src="https://m.media-amazon.com/images/I/91KvDncPIbL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
@@ -9508,14 +9464,6 @@
     <display-name lang="en">Unspeakable</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/unspeakable._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930162600 -0700" stop="20250930165400 -0700" channel="Unspeakable">
-    <title lang="en">Blindfolded for 24 Hours Challenge; 24 Hours at the Arcade Challenge</title>
-    <desc lang="en">Unspeakable spends a day in an arcade.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1Od-WSld5L._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
   <programme start="20250930165400 -0700" stop="20250930171700 -0700" channel="Unspeakable">
     <title lang="en">24-Hour Overnight Warehouse Challenge</title>
     <desc lang="en">Unspeakable, James and Gabe compete.</desc>
@@ -9655,6 +9603,14 @@
   <programme start="20251001002600 -0700" stop="20251001005400 -0700" channel="Unspeakable">
     <title lang="en">Filling My House With Giant Balls; Turning My House Into a Beach</title>
     <desc lang="en">Unspeakable fills his house with balls.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1Od-WSld5L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005400 -0700" stop="20251001012100 -0700" channel="Unspeakable">
+    <title lang="en">Giant Candyland Gameboard</title>
+    <desc lang="en">Candyland on a gigantic gameboard.</desc>
     <icon src="https://m.media-amazon.com/images/I/A1Od-WSld5L._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
@@ -9820,6 +9776,14 @@
       <value>16+</value>
     </rating>
   </programme>
+  <programme start="20251001005700 -0700" stop="20251001014700 -0700" channel="CW Gold">
+    <title lang="en">Barking Bad</title>
+    <desc lang="en">Ellis and his cat Marc move in together.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1FYzUozGLL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Shades.of.Black">
     <display-name lang="en">Shades of Black</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/shades_of_black._SL170_FMpng_.png" />
@@ -9960,14 +9924,6 @@
     <display-name lang="en">Stories by AMC</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/stories_by_amc._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930160100 -0700" stop="20250930164900 -0700" channel="Stories by AMC">
-    <title lang="en">Pride, Pomp and Circumstance</title>
-    <desc lang="en">A scramble to prevent bloodshed.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81rdORdSn9L._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
   <programme start="20250930164900 -0700" stop="20250930173800 -0700" channel="Stories by AMC">
     <title lang="en">Revelations</title>
     <desc lang="en">Durant faces financial ruin.</desc>
@@ -10156,6 +10112,14 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001004800 -0700" stop="20251001014100 -0700" channel="ALLBLK Gems">
+    <title lang="en">Taste of a Wedding Singer</title>
+    <desc lang="en">Trina confesses of her DUI arrest.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1OvhJK5I8L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Cirque.du.Soleil">
     <display-name lang="en">Cirque du Soleil</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/4.8_cirque_du_soleil._SL170_FMpng_.png" />
@@ -10232,18 +10196,18 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001005300 -0700" stop="20251001023200 -0700" channel="Cirque du Soleil">
+    <title lang="en">Cirque du Soleil Presents: Nouvelle Expérience</title>
+    <desc lang="en">The full production of Nouvelle Expérience, recorded live!</desc>
+    <icon src="https://m.media-amazon.com/images/I/91MDlCYeUxL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.365BLK">
     <display-name lang="en">365BLK</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/365BLK._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930143300 -0700" stop="20250930165100 -0700" channel="365BLK">
-    <title lang="en">Bait</title>
-    <desc lang="en">A petty thief is used to flush out a high-tech criminal.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71APftD24uL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
   <programme start="20250930165100 -0700" stop="20250930184900 -0700" channel="365BLK">
     <title lang="en">The Players Club</title>
     <desc lang="en">A woman (LisaRaye) works as a stripper to pay her tuition.</desc>
@@ -10328,14 +10292,6 @@
     <display-name lang="en">El Rey Rebel</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/el_rey_rebel._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930152000 -0700" stop="20250930165800 -0700" channel="El Rey Rebel">
-    <title lang="en">Texas Chainsaw</title>
-    <desc lang="en">Evil wears many faces.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81T7qQhW6bL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
   <programme start="20250930165800 -0700" stop="20250930185700 -0700" channel="El Rey Rebel">
     <title lang="en">Ip Man</title>
     <desc lang="en">The life story of Yip Man, the first teacher of Wing Chun.</desc>
@@ -10368,19 +10324,111 @@
       <value>13+</value>
     </rating>
   </programme>
-  <channel id="Amazon.FOX.32.Chicago">
-    <display-name lang="en">FOX 32 Chicago</display-name>
-    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/CHICAGO-_FOX32_Logo._SL170_FMpng_.png" />
+  <programme start="20251001005500 -0700" stop="20251001014400 -0700" channel="El Rey Rebel">
+    <title lang="en">The Take</title>
+    <desc lang="en">The Fullers confront their demons.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81oxRYthN1L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <channel id="Amazon.FilmRise.British.TV">
+    <display-name lang="en">FilmRise British TV</display-name>
+    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/filmrise_british_tv._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163000 -0700" stop="20250930170000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">Family Feud</title>
-    <desc lang="en">Steve Harvey hosts; two families compete to guess the answers to various surveys.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71dg4Xb9EvL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930161700 -0700" stop="20250930170800 -0700" channel="FilmRise British TV">
+    <title lang="en">Episode 9</title>
+    <desc lang="en">Danny sets up a field hospital.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81IjGkHVWEL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930170000 -0700" stop="20250930180000 -0700" channel="FOX 32 Chicago">
+  <programme start="20250930170800 -0700" stop="20250930180100 -0700" channel="FilmRise British TV">
+    <title lang="en">Episode 10</title>
+    <desc lang="en">Dup sees a way to persuade Danny.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81IjGkHVWEL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20250930180100 -0700" stop="20250930190600 -0700" channel="FilmRise British TV">
+    <title lang="en">The Call of the Void</title>
+    <desc lang="en">Bill Hobart is suspected of murder.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91cvO5a+a1L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20250930190600 -0700" stop="20250930201100 -0700" channel="FilmRise British TV">
+    <title lang="en">All She Leaves Behind</title>
+    <desc lang="en">Blake investigates a writer's murder.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91cvO5a+a1L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20250930201100 -0700" stop="20250930211700 -0700" channel="FilmRise British TV">
+    <title lang="en">Measure Twice</title>
+    <desc lang="en">A retired carpenter is murdered.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91cvO5a+a1L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20250930211700 -0700" stop="20250930221500 -0700" channel="FilmRise British TV">
+    <title lang="en">The Dead Flutist</title>
+    <desc lang="en">An amateur flutist is found dead.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81gLL7rFF6L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20250930221500 -0700" stop="20250930231400 -0700" channel="FilmRise British TV">
+    <title lang="en">The Scapegoat</title>
+    <desc lang="en">Undertaker mysteriously disappears.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81gLL7rFF6L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20250930231400 -0700" stop="20251001001300 -0700" channel="FilmRise British TV">
+    <title lang="en">The Tangled Web</title>
+    <desc lang="en">Pregnant teen missing; clan feud.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81gLL7rFF6L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20251001001300 -0700" stop="20251001004100 -0700" channel="FilmRise British TV">
+    <title lang="en">University Challenge</title>
+    <desc lang="en">Mark is determined to forget Sophie.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81-ifMeng3L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20251001004100 -0700" stop="20251001011100 -0700" channel="FilmRise British TV">
+    <title lang="en">The Man Show</title>
+    <desc lang="en">Sophie and Jeff move in together.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81-ifMeng3L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <channel id="Amazon.Fox.17">
+    <display-name lang="en">Fox 17</display-name>
+    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/DES-MOINES-KDSM_1920x1080_LOGO._SL170_FMpng_.png" />
+  </channel>
+  <programme start="20250930163000 -0700" stop="20250930170000 -0700" channel="Fox 17">
+    <title lang="en">Family Feud</title>
+    <desc lang="en">Steve Harvey hosts; two families compete to guess the answers to various surveys.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A14jui3wVvL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20250930170000 -0700" stop="20250930180000 -0700" channel="Fox 17">
     <title lang="en">Blood Wedding</title>
     <desc lang="en">Cassandra participates in a debate.</desc>
     <icon src="https://m.media-amazon.com/images/I/B1L64JjVFcL._UR688,387_FMpng_.jpg" />
@@ -10388,7 +10436,7 @@
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930180000 -0700" stop="20250930190000 -0700" channel="FOX 32 Chicago">
+  <programme start="20250930180000 -0700" stop="20250930190000 -0700" channel="Fox 17">
     <title lang="en">Delusions of Grandeur</title>
     <desc lang="en">Amy treats a mother-to-be.</desc>
     <icon src="https://m.media-amazon.com/images/I/C1oWU6fme5L._UR688,387_FMpng_.jpg" />
@@ -10396,152 +10444,84 @@
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930190000 -0700" stop="20250930193000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">Fox 32 News at Nine</title>
-    <desc lang="en">Local and regional news coverage.</desc>
-    <icon src="https://m.media-amazon.com/images/I/913vRnmKqKL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930190000 -0700" stop="20250930200000 -0700" channel="Fox 17">
+    <title lang="en">13 News at 9 on Fox 17</title>
+    <desc lang="en">Local, national and international news.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81z5O148GAL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930193000 -0700" stop="20250930200000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">1st &amp; North</title>
-    <desc lang="en">Lou Canelis and insiders who cover the Bears, Packers, Lions and Vikings discuss the pro football's fiercest division.</desc>
-    <icon src="https://m.media-amazon.com/images/I/811dsMqx3jL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930200000 -0700" stop="20250930203000 -0700" channel="Fox 17">
+    <title lang="en">The National News Desk</title>
+    <desc lang="en">Local and national perspectives on the latest news.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81J-Y3ujvhL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930200000 -0700" stop="20250930203000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">The Chicago Report</title>
-    <desc lang="en">Newsmakers go on the record to answer big questions.</desc>
-    <icon src="https://m.media-amazon.com/images/I/913vRnmKqKL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930203000 -0700" stop="20250930210000 -0700" channel="Fox 17">
+    <title lang="en">The National News Desk</title>
+    <desc lang="en">Local and national perspectives on the latest news.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81J-Y3ujvhL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930203000 -0700" stop="20250930210000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">TMZ</title>
-    <desc lang="en">The very latest celebrity news.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91ME2p4BDlL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930210000 -0700" stop="20250930213000 -0700" channel="Fox 17">
+    <title lang="en">The Abstinence</title>
+    <desc lang="en">George abstains from sex.</desc>
+    <icon src="https://m.media-amazon.com/images/I/814X2L8ICQL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930210000 -0700" stop="20250930213000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">Family Feud</title>
-    <desc lang="en">Steve Harvey hosts; two families compete to guess the answers to various surveys.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A14jui3wVvL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930213000 -0700" stop="20250930220000 -0700" channel="Fox 17">
+    <title lang="en">The Locomotion Interruption</title>
+    <desc lang="en">Penny goes for an interview.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81HMF1OMF7L._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930213000 -0700" stop="20250930220000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">Family Feud</title>
-    <desc lang="en">Steve Harvey hosts; two families compete to guess the answers to various surveys.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A14jui3wVvL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930220000 -0700" stop="20250930223000 -0700" channel="Fox 17">
+    <title lang="en">iCRIME With Elizabeth Vargas</title>
+    <desc lang="en">Crimes from across the country that have been captured by ordinary people on their smartphones.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81ljLAcQWML._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20250930223000 -0700" stop="20250930230000 -0700" channel="Fox 17">
+    <title lang="en">Live PD Presents</title>
+    <desc lang="en">Unscripted, Special Interest</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1GE+fESqEL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20250930230000 -0700" stop="20250930233000 -0700" channel="Fox 17">
+    <title lang="en">Live PD Presents</title>
+    <desc lang="en">Unscripted, Special Interest</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1GE+fESqEL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20250930233000 -0700" stop="20251001003000 -0700" channel="Fox 17">
+    <title lang="en">Jane Lynch</title>
+    <desc lang="en">Jane Lynch ("Celebrity Weakest Link").</desc>
+    <icon src="https://m.media-amazon.com/images/I/8155wonqj8L._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930220000 -0700" stop="20250930223000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">Fox 32 News at Nine</title>
-    <desc lang="en">Local and regional news coverage.</desc>
-    <icon src="https://m.media-amazon.com/images/I/913vRnmKqKL._UR688,387_FMpng_.jpg" />
+  <programme start="20251001003000 -0700" stop="20251001013000 -0700" channel="Fox 17">
+    <title lang="en">I Lost My Baby: I Need to Clear My Name</title>
+    <desc lang="en">Baby passed away; kids with meth.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1VM9QTp-WL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20250930223000 -0700" stop="20250930230000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">1st &amp; North</title>
-    <desc lang="en">Lou Canelis and insiders who cover the Bears, Packers, Lions and Vikings discuss the pro football's fiercest division.</desc>
-    <icon src="https://m.media-amazon.com/images/I/811dsMqx3jL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20250930230000 -0700" stop="20251001010000 -0700" channel="FOX 32 Chicago">
-    <title lang="en">Chicago Now!</title>
-    <desc lang="en">Everything trending and being talked about in Chicagoland.</desc>
-    <icon src="https://m.media-amazon.com/images/I/716vn5KS96L._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <channel id="Amazon.Fox.Chicago.Plus">
-    <display-name lang="en">Fox Chicago Plus</display-name>
-    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/FOX_plus_CHI_station_logo_16x9._SL170_FMpng_.png" />
-  </channel>
-  <programme start="20250930160000 -0700" stop="20250930190000 -0700" channel="Fox Chicago Plus">
-    <title lang="en">Fox Chicago Playlist</title>
-    <desc lang="en">News</desc>
-    <icon src="https://m.media-amazon.com/images/I/913vRnmKqKL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20250930190000 -0700" stop="20250930193000 -0700" channel="Fox Chicago Plus">
-    <title lang="en">Family Feud</title>
-    <desc lang="en">Steve Harvey hosts; two families compete to guess the answers to various surveys.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71TmZ2w+8WL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
-  <programme start="20250930193000 -0700" stop="20250930200000 -0700" channel="Fox Chicago Plus">
-    <title lang="en">Alofaiituli Family vs. Long Family</title>
-    <desc lang="en">Steve Harvey hosts; two families compete to guess the answers to various surveys.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71TmZ2w+8WL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
-  <programme start="20250930200000 -0700" stop="20250930210000 -0700" channel="Fox Chicago Plus">
-    <title lang="en">Hannah Graham: Stalked by Evil</title>
-    <desc lang="en">Disappearance of Hannah Graham.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1tUB0hGpSL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20250930210000 -0700" stop="20250930220000 -0700" channel="Fox Chicago Plus">
-    <title lang="en">Chin Check</title>
-    <desc lang="en">A house associated with gangs.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81YU1F-K-IL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20250930220000 -0700" stop="20250930230000 -0700" channel="Fox Chicago Plus">
-    <title lang="en">Stepping Stone</title>
-    <desc lang="en">A series of brutal slayings.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81YU1F-K-IL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20250930230000 -0700" stop="20251001000000 -0700" channel="Fox Chicago Plus">
-    <title lang="en">Quickie</title>
-    <desc lang="en">Man knowingly spreads HIV.</desc>
-    <icon src="https://m.media-amazon.com/images/I/812pRxTnl9L._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20251001000000 -0700" stop="20251001003000 -0700" channel="Fox Chicago Plus">
-    <title lang="en">Paid Programming</title>
-    <desc lang="en">Paid programming.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71TTxgmJnFL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>all</value>
-    </rating>
-  </programme>
-  <programme start="20251001003000 -0700" stop="20251001010000 -0700" channel="Fox Chicago Plus">
-    <title lang="en">Paid Programming</title>
-    <desc lang="en">Paid programming.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71TTxgmJnFL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>all</value>
     </rating>
   </programme>
   <channel id="Amazon.FOX.Soul">
@@ -10628,19 +10608,19 @@
       <value>16+</value>
     </rating>
   </programme>
-  <channel id="Amazon.WMAQ.by.Peacock">
-    <display-name lang="en">WMAQ by Peacock</display-name>
+  <channel id="Amazon.WHO.by.Peacock">
+    <display-name lang="en">WHO by Peacock</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/NBC._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930163000 -0700" stop="20250930170000 -0700" channel="WMAQ by Peacock">
-    <title lang="en">Access Hollywood</title>
-    <desc lang="en">George Clooney and Adam Sandler.</desc>
-    <icon src="https://m.media-amazon.com/images/I/C1J+VSsLG-L._UR688,387_FMpng_.jpg" />
+  <programme start="20250930163000 -0700" stop="20250930170000 -0700" channel="WHO by Peacock">
+    <title lang="en">Fall Into Fall</title>
+    <desc lang="en">In a classic game-show version of "Hangman," contestants solve word puzzles for cash and prizes.</desc>
+    <icon src="https://m.media-amazon.com/images/I/C1XFRcBNRuL._UR688,387_FMpng_.jpg" />
     <rating system="us">
-      <value>7+</value>
+      <value>all</value>
     </rating>
   </programme>
-  <programme start="20250930170000 -0700" stop="20250930180000 -0700" channel="WMAQ by Peacock">
+  <programme start="20250930170000 -0700" stop="20250930180000 -0700" channel="WHO by Peacock">
     <title lang="en">Recap: The Blind Auditions, Part 3</title>
     <desc lang="en">Singers compete for a record contract and $100,000.</desc>
     <icon src="https://m.media-amazon.com/images/I/A1XQlai-xkL._UR688,387_FMpng_.jpg" />
@@ -10648,7 +10628,7 @@
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930180000 -0700" stop="20250930190000 -0700" channel="WMAQ by Peacock">
+  <programme start="20250930180000 -0700" stop="20250930190000 -0700" channel="WHO by Peacock">
     <title lang="en">The Blind Auditions, Part 4</title>
     <desc lang="en">The coaches seek America's best voice.</desc>
     <icon src="https://m.media-amazon.com/images/I/A1XQlai-xkL._UR688,387_FMpng_.jpg" />
@@ -10656,7 +10636,7 @@
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930190000 -0700" stop="20250930200000 -0700" channel="WMAQ by Peacock">
+  <programme start="20250930190000 -0700" stop="20250930200000 -0700" channel="WHO by Peacock">
     <title lang="en">10K Store Merch Drop</title>
     <desc lang="en">Ten creatives pitch their ideas.</desc>
     <icon src="https://m.media-amazon.com/images/I/C1ZVVTy8hKL._UR688,387_FMpng_.jpg" />
@@ -10664,15 +10644,15 @@
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20250930200000 -0700" stop="20250930203400 -0700" channel="WMAQ by Peacock">
-    <title lang="en">NBC 5 News at 10pm</title>
-    <desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71V4tBPKBJL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930200000 -0700" stop="20250930203400 -0700" channel="WHO by Peacock">
+    <title lang="en">WHO 13 News at 10</title>
+    <desc lang="en">Local and regional news coverage.</desc>
+    <icon src="https://m.media-amazon.com/images/I/71J14E-mKGL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930203400 -0700" stop="20250930213700 -0700" channel="WMAQ by Peacock">
+  <programme start="20250930203400 -0700" stop="20250930213700 -0700" channel="WHO by Peacock">
     <title lang="en">Dwayne Johnson; Henry Winkler; FINNEAS &amp; Ashe; The Favors</title>
     <desc lang="en">Actor Dwayne Johnson; Henry Winkler.</desc>
     <icon src="https://m.media-amazon.com/images/I/C1sHQEViTWL._UR688,387_FMpng_.jpg" />
@@ -10680,7 +10660,7 @@
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930213700 -0700" stop="20250930223700 -0700" channel="WMAQ by Peacock">
+  <programme start="20250930213700 -0700" stop="20250930223700 -0700" channel="WHO by Peacock">
     <title lang="en">Kate McKinnon; Charlie Hunnam; Chelsea Frei</title>
     <desc lang="en">Kate McKinnon; Charlie Hunnam.</desc>
     <icon src="https://m.media-amazon.com/images/I/B1zohP589CL._UR688,387_FMpng_.jpg" />
@@ -10688,36 +10668,36 @@
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930223700 -0700" stop="20250930230700 -0700" channel="WMAQ by Peacock">
-    <title lang="en">NBC 5 News at 10pm</title>
-    <desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71V4tBPKBJL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930223700 -0700" stop="20250930231200 -0700" channel="WHO by Peacock">
+    <title lang="en">WHO 13 News at 10</title>
+    <desc lang="en">Local and regional news coverage.</desc>
+    <icon src="https://m.media-amazon.com/images/I/71J14E-mKGL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930230700 -0700" stop="20250930234200 -0700" channel="WMAQ by Peacock">
-    <title lang="en">NBC Nightly News With Tom Llamas</title>
-    <desc lang="en">The latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1UjmJOF+BL._UR688,387_FMpng_.jpg" />
+  <programme start="20250930231200 -0700" stop="20251001000000 -0700" channel="WHO by Peacock">
+    <title lang="en">Top Story With Tom Llamas</title>
+    <desc lang="en">Reporting of breaking news and developing stories in real time.</desc>
+    <icon src="https://m.media-amazon.com/images/I/C1WiXr+1pWL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20250930234200 -0700" stop="20251001003000 -0700" channel="WMAQ by Peacock">
-    <title lang="en">The Kelly Clarkson Show</title>
-    <desc lang="en">Matthew McConaughey; Lily James.</desc>
-    <icon src="https://m.media-amazon.com/images/I/C1piIDvPkgL._UR688,387_FMpng_.jpg" />
+  <programme start="20251001000000 -0700" stop="20251001003000 -0700" channel="WHO by Peacock">
+    <title lang="en">Early Today</title>
+    <desc lang="en">Features general national and international news stories, financial and entertainment news and more.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B17A8pXvqdL._UR688,387_FMpng_.jpg" />
     <rating system="us">
-      <value>7+</value>
+      <value>all</value>
     </rating>
   </programme>
-  <programme start="20251001003000 -0700" stop="20251001013000 -0700" channel="WMAQ by Peacock">
-    <title lang="en">Access Daily With Mario &amp; Kit</title>
-    <desc lang="en">Actor John Corbett ("Soul on Fire").</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1rSgErywSL._UR688,387_FMpng_.jpg" />
+  <programme start="20251001003000 -0700" stop="20251001010000 -0700" channel="WHO by Peacock">
+    <title lang="en">Early Today</title>
+    <desc lang="en">Features general national and international news stories, financial and entertainment news and more.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B17A8pXvqdL._UR688,387_FMpng_.jpg" />
     <rating system="us">
-      <value>7+</value>
+      <value>all</value>
     </rating>
   </programme>
   <channel id="Amazon.Top.Gear.UK">
@@ -11428,14 +11408,6 @@
     <display-name lang="en">HBO</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/HBO_EAST_WHITE_1920x1080_f._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930144300 -0700" stop="20250930165500 -0700" channel="HBO">
-    <title lang="en">Superman</title>
-    <desc lang="en">Superman and Krypto battle evil tech billionaire Lex Luthor.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1OPtevjMuL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>13+</value>
-    </rating>
-  </programme>
   <programme start="20250930165500 -0700" stop="20250930180000 -0700" channel="HBO">
     <title lang="en">All Roads</title>
     <desc lang="en">Tom questions the loyalty of his taskforce; Perry probes his own gang for answers.</desc>
@@ -11544,6 +11516,50 @@
       <value>18+</value>
     </rating>
   </programme>
+  <channel id="Amazon.HBO.Movies">
+    <display-name lang="en">HBO Movies</display-name>
+    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/hbo_movies._SL170_FMpng_.png" />
+  </channel>
+  <programme start="20250930160100 -0700" stop="20250930180800 -0700" channel="HBO Movies">
+    <title lang="en">Seven</title>
+    <desc lang="en">A killer dispatches his victims via the Seven Deadly Sins.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91pnQuCUjiL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>18+</value>
+    </rating>
+  </programme>
+  <programme start="20250930180800 -0700" stop="20250930194600 -0700" channel="HBO Movies">
+    <title lang="en">A Perfect Getaway</title>
+    <desc lang="en">Honeymooning hikers find terror in paradise.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81Y8+PL-XTL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>18+</value>
+    </rating>
+  </programme>
+  <programme start="20250930194600 -0700" stop="20250930220400 -0700" channel="HBO Movies">
+    <title lang="en">Sinners</title>
+    <desc lang="en">Twin brothers discover a great evil in their hometown.</desc>
+    <icon src="https://m.media-amazon.com/images/I/C1oyPinrcjL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>18+</value>
+    </rating>
+  </programme>
+  <programme start="20250930220400 -0700" stop="20251001000200 -0700" channel="HBO Movies">
+    <title lang="en">Split</title>
+    <desc lang="en">A man who has 23 personalities abducts three teens.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91EFkljMAbL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>13+</value>
+    </rating>
+  </programme>
+  <programme start="20251001000200 -0700" stop="20251001031900 -0700" channel="HBO Movies">
+    <title lang="en">Another Earth</title>
+    <desc lang="en">A woman seeks out the man whose life she shattered.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81jkYKPPNgL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>13+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.The.Naked.Gun!">
     <display-name lang="en">The Naked Gun! </display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/NakedGun_AmazonChannelID._SL170_FMpng_.png" />
@@ -11586,6 +11602,14 @@
     <icon src="https://m.media-amazon.com/images/I/A1LB9HgiTjL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005415 -0700" stop="20251001024228 -0700" channel="The Naked Gun! ">
+    <title lang="en">Naked Gun 33 1/3: The Final Insult</title>
+    <desc lang="en">Lieutenant Frank Drebin is called back into action when an evil terrorist organization threatens Los Angeles.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B18UDAKvDAL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>13+</value>
     </rating>
   </programme>
   <channel id="Amazon.CINEVAULT.Westerns">
@@ -12336,6 +12360,14 @@
       <value>13+</value>
     </rating>
   </programme>
+  <programme start="20251001005500 -0700" stop="20251001013200 -0700" channel="The Asylum Movie Channel">
+    <title lang="en">Murphy's Law</title>
+    <desc lang="en">Murphy learns more about his abilities.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91aPaFAP56L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.ScreamboxTV">
     <display-name lang="en">ScreamboxTV</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/screamboxtv_us._SL170_FMpng_.png" />
@@ -12462,6 +12494,14 @@
     <icon src="https://m.media-amazon.com/images/I/81kO1syflcL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005100 -0700" stop="20251001024100 -0700" channel="Cinevault">
+    <title lang="en">The Principal</title>
+    <desc lang="en">An urban high-school principal fights campus crime.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81ER0ge3DWL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>18+</value>
     </rating>
   </programme>
   <channel id="Amazon.MGM.Celebrates.Black.Cinema">
@@ -12664,18 +12704,18 @@
       <value>18+</value>
     </rating>
   </programme>
-  <channel id="Amazon.Starz.Cinema.HD.East">
-    <display-name lang="en">Starz Cinema HD East</display-name>
-    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/starz_cinema._SL170_FMpng_.png" />
-  </channel>
-  <programme start="20250930160000 -0700" stop="20250930165100 -0700" channel="Starz Cinema HD East">
-    <title lang="en">Episode 2</title>
-    <desc lang="en">Charlotte pulls away from Mia.</desc>
-    <icon src="https://m.media-amazon.com/images/I/C1oKKTLo4FL._UR688,387_FMpng_.jpg" />
+  <programme start="20251001004700 -0700" stop="20251001021700 -0700" channel="Starz Comedy HD East">
+    <title lang="en">Someone Marry Barry</title>
+    <desc lang="en">Friends try to find a wife for their obnoxious buddy.</desc>
+    <icon src="https://m.media-amazon.com/images/I/71pz39nhLGL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>18+</value>
     </rating>
   </programme>
+  <channel id="Amazon.Starz.Cinema.HD.East">
+    <display-name lang="en">Starz Cinema HD East</display-name>
+    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/starz_cinema._SL170_FMpng_.png" />
+  </channel>
   <programme start="20250930165100 -0700" stop="20250930182800 -0700" channel="Starz Cinema HD East">
     <title lang="en">The Final Cut</title>
     <desc lang="en">In the end he sees everything.</desc>
@@ -12714,6 +12754,14 @@
     <icon src="https://m.media-amazon.com/images/I/814p58Z-V-L._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>18+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005600 -0700" stop="20251001024300 -0700" channel="Starz Cinema HD East">
+    <title lang="en">Escape From Pretoria</title>
+    <desc lang="en">Based on the book by Tim Jenkin.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A17kx9SjJLL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>13+</value>
     </rating>
   </programme>
   <channel id="Amazon.Starz.Kids.&amp;.Family.HD.East">
@@ -12768,48 +12816,12 @@
       <value>7+</value>
     </rating>
   </programme>
-  <channel id="Amazon.HBO.Movies">
-    <display-name lang="en">HBO Movies</display-name>
-    <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/hbo_movies._SL170_FMpng_.png" />
-  </channel>
-  <programme start="20250930160100 -0700" stop="20250930180800 -0700" channel="HBO Movies">
-    <title lang="en">Seven</title>
-    <desc lang="en">A killer dispatches his victims via the Seven Deadly Sins.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91pnQuCUjiL._UR688,387_FMpng_.jpg" />
+  <programme start="20251001005700 -0700" stop="20251001021900 -0700" channel="Starz Kids &amp; Family HD East">
+    <title lang="en">Bark Ranger</title>
+    <desc lang="en">Jack's dog Ranger has to save him from robbers.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91lacfP020L._UR688,387_FMpng_.jpg" />
     <rating system="us">
-      <value>18+</value>
-    </rating>
-  </programme>
-  <programme start="20250930180800 -0700" stop="20250930194600 -0700" channel="HBO Movies">
-    <title lang="en">A Perfect Getaway</title>
-    <desc lang="en">Honeymooning hikers find terror in paradise.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81Y8+PL-XTL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>18+</value>
-    </rating>
-  </programme>
-  <programme start="20250930194600 -0700" stop="20250930220400 -0700" channel="HBO Movies">
-    <title lang="en">Sinners</title>
-    <desc lang="en">Twin brothers discover a great evil in their hometown.</desc>
-    <icon src="https://m.media-amazon.com/images/I/C1oyPinrcjL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>18+</value>
-    </rating>
-  </programme>
-  <programme start="20250930220400 -0700" stop="20251001000200 -0700" channel="HBO Movies">
-    <title lang="en">Split</title>
-    <desc lang="en">A man who has 23 personalities abducts three teens.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91EFkljMAbL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>13+</value>
-    </rating>
-  </programme>
-  <programme start="20251001000200 -0700" stop="20251001031900 -0700" channel="HBO Movies">
-    <title lang="en">Another Earth</title>
-    <desc lang="en">A woman seeks out the man whose life she shattered.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81jkYKPPNgL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>13+</value>
+      <value>7+</value>
     </rating>
   </programme>
   <channel id="Amazon.HBO.Comedy">
@@ -12846,6 +12858,14 @@
     <icon src="https://m.media-amazon.com/images/I/A1wgcZzv1lL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>13+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005700 -0700" stop="20251001024200 -0700" channel="HBO Comedy">
+    <title lang="en">Get Shorty</title>
+    <desc lang="en">From Elmore Leonard's best seller.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91Vp75o-1KL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>18+</value>
     </rating>
   </programme>
   <channel id="Amazon.Cine.de.Oro">
@@ -13112,6 +13132,14 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001004900 -0700" stop="20251001011600 -0700" channel="Love Pets">
+    <title lang="en">The Lamb Family</title>
+    <desc lang="en">A daughter is afraid of dogs.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1F8uGVRHdL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Pokémon">
     <display-name lang="en">Pokémon</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/Amazon_Pokemon_Station_Logo_White_1920x1080._SL170_FMpng_.png" />
@@ -13260,6 +13288,14 @@
       <value>all</value>
     </rating>
   </programme>
+  <programme start="20251001005323 -0700" stop="20251001012109 -0700" channel="Pokémon">
+    <title lang="en">The Forest Champion!</title>
+    <desc lang="en">On their way to Shalour City, our heroes come across an amazing Pokémon with a powerful and unique way of battling!</desc>
+    <icon src="https://m.media-amazon.com/images/I/81kpQMbRWLL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>all</value>
+    </rating>
+  </programme>
   <channel id="Amazon.PBS.KIDS">
     <display-name lang="en">PBS KIDS</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/1920x1080_PBSKIDSlogo_white._SL170_FMpng_.png" />
@@ -13404,14 +13440,6 @@
     <display-name lang="en">TMNT</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/TMNT_US._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930162000 -0700" stop="20250930164800 -0700" channel="TMNT">
-    <title lang="en">Polly Wanna Pizza</title>
-    <desc lang="en">Michelangelo buys a parrot.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81U+ERPecGL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
   <programme start="20250930164800 -0700" stop="20250930171600 -0700" channel="TMNT">
     <title lang="en">Mr. Nice Guy</title>
     <desc lang="en">Donatello's personality alterator.</desc>
@@ -13551,6 +13579,14 @@
   <programme start="20251001002200 -0700" stop="20251001005000 -0700" channel="TMNT">
     <title lang="en">The Legend of Koji</title>
     <desc lang="en">Shredder shares the location of relics.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81U+ERPecGL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005000 -0700" stop="20251001011800 -0700" channel="TMNT">
+    <title lang="en">Convicts From Dimension X</title>
+    <desc lang="en">Donatello's portable portal generator.</desc>
     <icon src="https://m.media-amazon.com/images/I/81U+ERPecGL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
@@ -13876,6 +13912,14 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20251001004800 -0700" stop="20251001011200 -0700" channel="Power Rangers">
+    <title lang="en">White Light</title>
+    <desc lang="en">Tommy gets new powers.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1o9iN-F-3L._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Amazon.Transformers">
     <display-name lang="en">Transformers</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Transformers_US._SL170_FMpng_.png" />
@@ -14192,6 +14236,14 @@
     <title lang="en">Funniest Pets of the Month</title>
     <desc lang="en">These pets won January '24.</desc>
     <icon src="https://m.media-amazon.com/images/I/81xDxkuM6gL._UR688,387_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
+  <programme start="20251001005500 -0700" stop="20251001012700 -0700" channel="The Pet Collective">
+    <title lang="en">Kitties</title>
+    <desc lang="en">Did you know kittens are super easy to potty train?</desc>
+    <icon src="https://m.media-amazon.com/images/I/81bUesEdCEL._UR688,387_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
@@ -14544,14 +14596,6 @@
     <display-name lang="en">The Walking Dead Channel</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Carbon_Integration_Station_Image_Update/The_walking_dead_station._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930160900 -0700" stop="20250930165600 -0700" channel="The Walking Dead Channel">
-    <title lang="en">Consumed</title>
-    <desc lang="en">A rescue mission.</desc>
-    <icon src="https://m.media-amazon.com/images/I/9149dIHS8iL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>18+</value>
-    </rating>
-  </programme>
   <programme start="20250930165600 -0700" stop="20250930174400 -0700" channel="The Walking Dead Channel">
     <title lang="en">Crossed</title>
     <desc lang="en">The group is spread thin.</desc>
@@ -15260,14 +15304,6 @@
     <display-name lang="en">HBO Latino</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/HBO_LAT._SL170_FMpng_.png" />
   </channel>
-  <programme start="20250930144300 -0700" stop="20250930165500 -0700" channel="HBO Latino">
-    <title lang="en">Superman</title>
-    <desc lang="en">Superman and Krypto battle evil tech billionaire Lex Luthor.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1OPtevjMuL._UR688,387_FMpng_.jpg" />
-    <rating system="us">
-      <value>13+</value>
-    </rating>
-  </programme>
   <programme start="20250930165500 -0700" stop="20250930180000 -0700" channel="HBO Latino">
     <title lang="en">All Roads</title>
     <desc lang="en">Tom questions the loyalty of his taskforce; Perry probes his own gang for answers.</desc>
