@@ -1,4 +1,4 @@
-name: Build & Commit Prime LiveTV XMLTV
+name: Build & Commit Prime LiveTV XMLTV CA
 
 on:
   schedule:
