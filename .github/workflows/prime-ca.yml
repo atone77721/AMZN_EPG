@@ -31,9 +31,9 @@ jobs:
 
       - name: Restore prime_livetv.py from secret
         env:
-          PRIME_B64: ${{ secrets.PRIME_B64 }}
+          PRIME_CA_B64: ${{ secrets.PRIME_CA_B64 }}
         run: |
-          echo "$PRIME_B64" | base64 -d > prime_livetv.py
+          echo "$PRIME_CA_B64" | base64 -d > prime_livetv.py
           chmod +x prime_livetv.py
           head -20 prime_livetv.py  # preview first lines for sanity
 
