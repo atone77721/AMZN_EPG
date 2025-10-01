@@ -1,8 +1,8 @@
-name: Build & Commit Prime LiveTV XMLTV CA
+name: Build & Commit Prime LiveTV XMLTV CA via VPN
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Every 4 hours UTC
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -10,13 +10,11 @@ permissions:
 
 jobs:
   build-livetv:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux]
 
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,60 +34,54 @@ jobs:
           chmod +x prime_livetv.py
           head -20 prime_livetv.py
 
-      - name: Build amazon.xml (LiveTV)
+      - name: Connect to Surfshark VPN (Canada)
+        env:
+          VPN_USER: ${{ secrets.SURFSHARK_USER }}
+          VPN_PASS: ${{ secrets.SURFSHARK_PASS }}
+        run: |
+          echo -e "$VPN_USER\n$VPN_PASS" > vpn-auth.txt
+          sudo openvpn --config /etc/openvpn/ca-van.prod.surfshark.com.udp.ovpn \
+                        --auth-user-pass vpn-auth.txt \
+                        --daemon
+          echo "Waiting 10 seconds for VPN to establish..."
+          sleep 10
+          curl -s https://ipinfo.io | grep country
+
+      - name: Build amazon_ca.xml (LiveTV)
         env:
           PV_LIVETV_URLS_CA: ${{ secrets.PV_LIVETV_URLS_CA }}
           PV_COOKIE: ${{ secrets.PV_COOKIE }}
           PV_USER_AGENT: ${{ secrets.PV_USER_AGENT }}
           PV_REFERER: ${{ secrets.PV_REFERER }}
-          PV_CA_PROXY: http://6eGY59ep9wtgPEDLKULJTLnV:uBnYSJM2mNFcWuTkHDprSZEt@ca-van.prod.surfshark.com:1443
         run: |
           set -euo pipefail
-
           mkdir -p data
-          ARGS=( --timezone "America/Toronto" --channel-id name -o data/amazon_ca.xml )
+          ARGS=( --timezone "America/Los_Angeles" --channel-id name -o data/amazon_ca.xml )
 
-          # Optional UA / Referer
-          if [ -n "${PV_USER_AGENT:-}" ]; then ARGS+=( --user-agent "$PV_USER_AGENT" ); fi
-          if [ -n "${PV_REFERER:-}" ]; then ARGS+=( --referer "$PV_REFERER" ); fi
+          [ -n "${PV_USER_AGENT:-}" ] && ARGS+=( --user-agent "$PV_USER_AGENT" )
+          [ -n "${PV_REFERER:-}" ] && ARGS+=( --referer "$PV_REFERER" )
+          [ -n "${PV_COOKIE:-}" ] && ARGS+=( --cookie "$PV_COOKIE" )
 
-          # Cookie
-          if [ -n "${PV_COOKIE:-}" ]; then
-            ARGS+=( --cookie "$PV_COOKIE" )
-          else
-            echo "Warning: PV_COOKIE is empty; request may fail due to auth."
-          fi
-
-          # Set Canadian proxy
-          export HTTP_PROXY="${PV_CA_PROXY}"
-          export HTTPS_PROXY="${PV_CA_PROXY}"
-          echo "Using Canadian proxy: ${PV_CA_PROXY}"
-
-          # URLs
-          if [ -z "${PV_LIVETV_URLS_CA:-}" ]; then
-            echo "Missing secret PV_LIVETV_URLS_CA"; exit 1
-          fi
           while IFS=$'\n' read -r url; do
             [ -z "$url" ] && continue
             ARGS+=( --url "$url" )
           done <<< "$PV_LIVETV_URLS_CA"
 
-          # Run script
           python prime_livetv.py "${ARGS[@]}"
+
+      - name: Disconnect VPN
+        run: |
+          sudo pkill openvpn || true
 
       - name: Create amazon_ca.xml.gz
         run: |
-          set -euo pipefail
-          rm -f data/amazon_ca.xml.gz
           gzip -9 -c data/amazon_ca.xml > data/amazon_ca.xml.gz
           ls -l data/amazon_ca.xml data/amazon_ca.xml.gz
 
       - name: Commit updated XMLTV files
         run: |
-          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add data/amazon_ca.xml data/amazon_ca.xml.gz
           if git diff --cached --quiet; then
             echo "No changes to commit."
