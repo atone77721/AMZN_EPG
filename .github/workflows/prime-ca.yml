@@ -2,8 +2,7 @@ name: Build & Commit Prime LiveTV XMLTV CA
 
 on:
   schedule:
-    # Every 4 hours at minute 0 (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
-    - cron: '0 */4 * * *'
+    - cron: '0 */4 * * *'  # Every 4 hours UTC
   workflow_dispatch:
 
 permissions:
@@ -35,19 +34,20 @@ jobs:
         run: |
           echo "$PRIME_CA_B64" | base64 -d > prime_livetv.py
           chmod +x prime_livetv.py
-          head -20 prime_livetv.py  # preview first lines for sanity
+          head -20 prime_livetv.py
 
       - name: Build amazon.xml (LiveTV)
         env:
-          PV_LIVETV_URLS_CA: ${{ secrets.PV_LIVETV_URLS_CA }}   # newline-separated LiveTV URLs
-          PV_COOKIE: ${{ secrets.PV_COOKIE }}             # your Amazon cookie
-          PV_USER_AGENT: ${{ secrets.PV_USER_AGENT }}     # optional: custom UA
-          PV_REFERER: ${{ secrets.PV_REFERER }}           # optional: custom Referer
+          PV_LIVETV_URLS_CA: ${{ secrets.PV_LIVETV_URLS_CA }}
+          PV_COOKIE: ${{ secrets.PV_COOKIE }}
+          PV_USER_AGENT: ${{ secrets.PV_USER_AGENT }}
+          PV_REFERER: ${{ secrets.PV_REFERER }}
+          PV_CA_PROXY: http://6eGY59ep9wtgPEDLKULJTLnV:uBnYSJM2mNFcWuTkHDprSZEt@ca-van.prod.surfshark.com:1443
         run: |
           set -euo pipefail
 
           mkdir -p data
-          ARGS=( --timezone "America/Los_Angeles" --channel-id name -o data/amazon_ca.xml )
+          ARGS=( --timezone "America/Toronto" --channel-id name -o data/amazon_ca.xml )
 
           # Optional UA / Referer
           if [ -n "${PV_USER_AGENT:-}" ]; then ARGS+=( --user-agent "$PV_USER_AGENT" ); fi
@@ -59,6 +59,11 @@ jobs:
           else
             echo "Warning: PV_COOKIE is empty; request may fail due to auth."
           fi
+
+          # Set Canadian proxy
+          export HTTP_PROXY="${PV_CA_PROXY}"
+          export HTTPS_PROXY="${PV_CA_PROXY}"
+          echo "Using Canadian proxy: ${PV_CA_PROXY}"
 
           # URLs
           if [ -z "${PV_LIVETV_URLS_CA:-}" ]; then
