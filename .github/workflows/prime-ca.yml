@@ -1,4 +1,4 @@
-name: Build & Commit Prime LiveTV XMLTV CA via WireGuard VPN
+name: Build & Commit Prime LiveTV XMLTV CA
 
 on:
   schedule:
@@ -11,8 +11,27 @@ permissions:
 jobs:
   build-livetv:
     runs-on: ubuntu-latest
+    services:
+      gluetun:
+        image: qmcgaw/gluetun
+        ports:
+          - 0:8888  # optional; we use container networking
+        options: >-
+          --cap-add=NET_ADMIN
+          --device /dev/net/tun
+        env:
+          VPNSP: "surfshark"
+          VPN_TYPE: "wireguard"
+          WIREGUARD_PRIVATE_KEY: ${{ secrets.SURFSHARK_WG_PRIVATE_KEY }}
+          SERVER_COUNTRIES: "CA"
+          REGION: "CA-VAN"
+          USER: ${{ secrets.SURFSHARK_USER }}
+          PASSWORD: ${{ secrets.SURFSHARK_PASSWORD }}
+          TZ: "America/Toronto"
+          LOG_LEVEL: "info"
+
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -31,32 +50,19 @@ jobs:
         run: |
           echo "$PRIME_CA_B64" | base64 -d > prime_livetv.py
           chmod +x prime_livetv.py
-          head -20 prime_livetv.py
 
-      - name: Run Surfshark WireGuard VPN container
-        env:
-          VPN_USER: ${{ secrets.SURFSHARK_USER }}
-          VPN_PASS: ${{ secrets.SURFSHARK_PASS }}
+      - name: Wait for VPN container
         run: |
-          docker run -d --name surfshark-vpn \
-            --cap-add=NET_ADMIN \
-            -e VPN_SERVICE_PROVIDER=surfshark \
-            -e VPN_TYPE=wg \
-            -e VPN_USER=$VPN_USER \
-            -e VPN_PASSWORD=$VPN_PASS \
-            -e WIREGUARD_COUNTRY=CA \
-            -e ENABLE_IPV6=no \
-            -e REGION=van \
-            -e ENABLE_SPLIT_TUNNEL=no \
-            -p 51820:51820/udp \
-            ghcr.io/qdm12/gluetun:latest
+          echo "Waiting for gluetun VPN to be ready..."
+          for i in {1..30}; do
+            if docker exec gluetun curl -s --max-time 5 https://ifconfig.me; then
+              echo "VPN is ready"; break
+            else
+              echo "Waiting... ($i/30)"; sleep 5
+            fi
+          done
 
-          echo "Waiting 15 seconds for VPN to establish..."
-          sleep 15
-          echo "Current public IP:"
-          docker exec surfshark-vpn curl -s https://ipinfo.io | grep -E "ip|country"
-
-      - name: Build amazon_ca.xml (LiveTV)
+      - name: Build amazon.xml (LiveTV) via VPN
         env:
           PV_LIVETV_URLS_CA: ${{ secrets.PV_LIVETV_URLS_CA }}
           PV_COOKIE: ${{ secrets.PV_COOKIE }}
@@ -64,31 +70,27 @@ jobs:
           PV_REFERER: ${{ secrets.PV_REFERER }}
         run: |
           set -euo pipefail
-
           mkdir -p data
-          ARGS=( --timezone "America/Los_Angeles" --channel-id name -o data/amazon_ca.xml )
+          ARGS=( --timezone "America/Toronto" --channel-id name -o data/amazon_ca.xml )
 
-          [ -n "${PV_USER_AGENT:-}" ] && ARGS+=( --user-agent "$PV_USER_AGENT" )
-          [ -n "${PV_REFERER:-}" ] && ARGS+=( --referer "$PV_REFERER" )
-          [ -n "${PV_COOKIE:-}" ] && ARGS+=( --cookie "$PV_COOKIE" )
+          if [ -n "${PV_USER_AGENT:-}" ]; then ARGS+=( --user-agent "$PV_USER_AGENT" ); fi
+          if [ -n "${PV_REFERER:-}" ]; then ARGS+=( --referer "$PV_REFERER" ); fi
+          if [ -n "${PV_COOKIE:-}" ]; then ARGS+=( --cookie "$PV_COOKIE" ); fi
 
           while IFS=$'\n' read -r url; do
             [ -z "$url" ] && continue
             ARGS+=( --url "$url" )
           done <<< "$PV_LIVETV_URLS_CA"
 
-          # Run the script inside the VPN network namespace
-          docker exec surfshark-vpn python3 /github/workspace/prime_livetv.py "${ARGS[@]}"
-
-      - name: Stop VPN container
-        run: |
-          docker stop surfshark-vpn
-          docker rm surfshark-vpn
+          # Run script inside gluetun network
+          docker run --rm --network container:gluetun \
+            -v "${PWD}:/workspace" -w /workspace \
+            python:3.11-slim \
+            bash -c "python prime_livetv.py \"\${ARGS[@]}\""
 
       - name: Create amazon_ca.xml.gz
         run: |
           gzip -9 -c data/amazon_ca.xml > data/amazon_ca.xml.gz
-          ls -l data/amazon_ca.xml data/amazon_ca.xml.gz
 
       - name: Commit updated XMLTV files
         run: |
