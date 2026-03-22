@@ -1,0 +1,39 @@
+name: Generate NowTV EPG
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout (optional)
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Recreate script from Base64
+        run: |
+          echo "$NOWTV_SCRIPT_B64" | base64 -d > nowtv_epg.py
+        env:
+          NOWTV_SCRIPT_B64: ${{ secrets.NOWTV_SCRIPT_B64 }}
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run script
+        run: |
+          python nowtv_epg.py
+
+      - name: Upload XML artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nowtv-xml
+          path: nowtv.xml
