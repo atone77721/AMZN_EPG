@@ -5,12 +5,15 @@ on:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write   # ✅ REQUIRED
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout (optional)
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -25,15 +28,16 @@ jobs:
           NOWTV_SCRIPT_B64: ${{ secrets.NOWTV_SCRIPT_B64 }}
 
       - name: Install dependencies
-        run: |
-          pip install requests
+        run: pip install requests
 
       - name: Run script
-        run: |
-          python nowtv_epg.py
+        run: python nowtv_epg.py
 
-      - name: Upload XML artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: nowtv-xml
-          path: nowtv.xml
+      - name: Commit and push XML
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add nowtv.xml
+          git commit -m "Auto update nowtv.xml" || echo "No changes"
+          git push
