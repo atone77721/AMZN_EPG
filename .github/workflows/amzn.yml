@@ -1,0 +1,39 @@
+name: Run EPG Script
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"  # every 6 hours
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps
+
+       - name: Decode and Run AMZN EPG fetcher
+        env:
+          AMZN_EPG: ${{ secrets.AMZN_EPG }}
+        run: |
+          echo "$AMZN_EPG" | tr -d '\n' | base64 --decode > amzn_epg.py
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg-output
+          path: |
+            epg.xml
+            urls.txt
+            channels.json
