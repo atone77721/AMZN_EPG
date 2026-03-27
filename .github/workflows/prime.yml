@@ -2,6 +2,7 @@ name: Build & Commit Prime LiveTV XMLTV
 
 on:
   schedule:
+    # Every 4 hours at minute 0 (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
     - cron: '0 */4 * * *'
   workflow_dispatch:
 
@@ -28,19 +29,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Restore prime_livetv.py from secret
-        env:
-          PRIME_B64: ${{ secrets.PRIME_B64 }}
-        run: |
-          echo "$PRIME_B64" | base64 -d > prime_livetv.py
-          chmod +x prime_livetv.py
-          head -20 prime_livetv.py
-
       - name: Build amazon.xml (LiveTV)
         env:
-          PV_COOKIE: ${{ secrets.PV_COOKIE }}
-          PV_USER_AGENT: ${{ secrets.PV_USER_AGENT }}
-          PV_REFERER: ${{ secrets.PV_REFERER }}
+          PV_LIVETV_URLS: ${{ secrets.PV_LIVETV_URLS }}   # newline-separated LiveTV URLs
+          PV_COOKIE: ${{ secrets.PV_COOKIE }}             # your Amazon cookie
+          PV_USER_AGENT: ${{ secrets.PV_USER_AGENT }}     # optional: custom UA
+          PV_REFERER: ${{ secrets.PV_REFERER }}           # optional: custom Referer
         run: |
           set -euo pipefail
 
@@ -58,21 +52,14 @@ jobs:
             echo "Warning: PV_COOKIE is empty; request may fail due to auth."
           fi
 
-          # Load URLs from repo file
-          URL_FILE="amazon_urls.txt"
-
-          if [ ! -f "$URL_FILE" ]; then
-            echo "Missing $URL_FILE"; exit 1
+          # URLs
+          if [ -z "${PV_LIVETV_URLS:-}" ]; then
+            echo "Missing secret PV_LIVETV_URLS"; exit 1
           fi
-
-          echo "Loading URLs from $URL_FILE..."
-
-          while IFS= read -r url; do
+          while IFS=$'\n' read -r url; do
             [ -z "$url" ] && continue
             ARGS+=( --url "$url" )
-          done < "$URL_FILE"
-
-          echo "Total URLs loaded: ${#ARGS[@]}"
+          done <<< "$PV_LIVETV_URLS"
 
           # Run script
           python prime_livetv.py "${ARGS[@]}"
