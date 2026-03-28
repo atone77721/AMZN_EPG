@@ -1,10 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv source-info-name="PrimeVideo" generator-info-name="prime_livetv.py">
-  <channel id="WMAQ by Peacock">
-    <display-name lang="en">WMAQ by Peacock</display-name>
+  <channel id="KPNX by Peacock">
+    <display-name lang="en">KPNX by Peacock</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/NBC._SL170_FMpng_.png" />
   </channel>
-  <programme start="20260327203400 -0700" stop="20260327213700 -0700" channel="WMAQ by Peacock">
+  <programme start="20260327200100 -0700" stop="20260327210000 -0700" channel="KPNX by Peacock">
+    <title lang="en">Savannah Speaks: A Dateline Special</title>
+    <desc lang="en">Savannah Guthrie on her mother.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1C7ORKYEnL._UR1920,1080_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20260327210000 -0700" stop="20260327220000 -0700" channel="KPNX by Peacock">
+    <title lang="en">Deadly Dance</title>
+    <desc lang="en">A former ballerina shoots her husband.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91EHI8WJKOL._UR1920,1080_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20260327220000 -0700" stop="20260327223400 -0700" channel="KPNX by Peacock">
+    <title lang="en">12 News at 10pm</title>
+    <desc lang="en">Local, national and international news coverage.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81Lz1eovPfL._UR1920,1080_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20260327223400 -0700" stop="20260327233700 -0700" channel="KPNX by Peacock">
     <title lang="en">Ryan Gosling; Jessie Buckley; The Cast of One Piece; .idk.; Black Thought; Kaytranada</title>
     <desc lang="en">Ryan Gosling; Jessie Buckley.</desc>
     <icon src="https://m.media-amazon.com/images/I/C1sHQEViTWL._UR1920,1080_FMpng_.jpg" />
@@ -12,7 +36,7 @@
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20260327213700 -0700" stop="20260327223700 -0700" channel="WMAQ by Peacock">
+  <programme start="20260327233700 -0700" stop="20260328003700 -0700" channel="KPNX by Peacock">
     <title lang="en">Tony Shalhoub; Jenny Slate; Michael Vignola</title>
     <desc lang="en">Tony Shalhoub; Jenny Slate.</desc>
     <icon src="https://m.media-amazon.com/images/I/B1oVOjISvFL._UR1920,1080_FMpng_.jpg" />
@@ -20,47 +44,55 @@
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20260327223700 -0700" stop="20260327230700 -0700" channel="WMAQ by Peacock">
-    <title lang="en">NBC 5 News at 10pm</title>
-    <desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71hT4mwSapL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260328003700 -0700" stop="20260328011200 -0700" channel="KPNX by Peacock">
+    <title lang="en">12 News at 10pm</title>
+    <desc lang="en">Local, national and international news coverage.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81Lz1eovPfL._UR1920,1080_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20260327230700 -0700" stop="20260327234200 -0700" channel="WMAQ by Peacock">
-    <title lang="en">NBC Nightly News With Tom Llamas</title>
-    <desc lang="en">The latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1UjmJOF+BL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260328011200 -0700" stop="20260328014200 -0700" channel="KPNX by Peacock">
+    <title lang="en">Reed Hastings</title>
+    <desc lang="en">Netflix co-founder Reed Hastings.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81RZp8-fTqL._UR1920,1080_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
   </programme>
-  <programme start="20260327234200 -0700" stop="20260328003000 -0700" channel="WMAQ by Peacock">
-    <title lang="en">The Kelly Clarkson Show</title>
-    <desc lang="en">Demi Lovato; guest host Andy Cohen.</desc>
-    <icon src="https://m.media-amazon.com/images/I/C1piIDvPkgL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260328014200 -0700" stop="20260328021200 -0700" channel="KPNX by Peacock">
+    <title lang="en">Ambulance bills could lead to bankruptcy. Protect yourself now!</title>
+    <desc lang="en">Shocking Ambulance Bills.</desc>
+    <icon src="https://m.media-amazon.com/images/I/61HfNI-eUSL._UR1920,1080_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20260328021200 -0700" stop="20260328030000 -0700" channel="KPNX by Peacock">
+    <title lang="en">Top Story With Tom Llamas</title>
+    <desc lang="en">Reporting of breaking news and developing stories in real time.</desc>
+    <icon src="https://m.media-amazon.com/images/I/C1WiXr+1pWL._UR1920,1080_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20260328030000 -0700" stop="20260328033000 -0700" channel="KPNX by Peacock">
+    <title lang="en">Destination Ireland</title>
+    <desc lang="en">Lauren Scala explores Ireland.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91IFovWH+tL._UR1920,1080_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20260328003000 -0700" stop="20260328013000 -0700" channel="WMAQ by Peacock">
-    <title lang="en">Access Daily With Mario &amp; Kit</title>
-    <desc lang="en">Universal's Epic Universe; Gail Simmons.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1rSgErywSL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260328033000 -0700" stop="20260328040000 -0700" channel="KPNX by Peacock">
+    <title lang="en">Destination Cuba</title>
+    <desc lang="en">Cuba has once again become a global destination.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91IFovWH+tL._UR1920,1080_FMpng_.jpg" />
     <rating system="us">
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20260328013000 -0700" stop="20260328020000 -0700" channel="WMAQ by Peacock">
-    <title lang="en">Jane Seymour, Kate Walsh share their skin secrets</title>
-    <desc lang="en">Get an ULTRA youthful-looking neck at any age! TUNE IN TO SEE HOW!</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1c2DOTbSqL._UR1920,1080_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20260328020000 -0700" stop="20260328023000 -0700" channel="WMAQ by Peacock">
+  <programme start="20260328040000 -0700" stop="20260328043000 -0700" channel="KPNX by Peacock">
     <title lang="en">Destination Atlantic City</title>
     <desc lang="en">A look at Atlantic City.</desc>
     <icon src="https://m.media-amazon.com/images/I/91IFovWH+tL._UR1920,1080_FMpng_.jpg" />
@@ -68,26 +100,10 @@
       <value>7+</value>
     </rating>
   </programme>
-  <programme start="20260328023000 -0700" stop="20260328030000 -0700" channel="WMAQ by Peacock">
-    <title lang="en">The Fight to End Mass Incarceration; Community Matters Café; Everyday Pink Clothing Brand</title>
-    <desc lang="en">Racial disparities; helping addicts.</desc>
-    <icon src="https://m.media-amazon.com/images/I/61Lu5cRKKrL._UR1920,1080_FMpng_.jpg" />
-    <rating system="us">
-      <value>7+</value>
-    </rating>
-  </programme>
-  <programme start="20260328030000 -0700" stop="20260328040000 -0700" channel="WMAQ by Peacock">
-    <title lang="en">NBC 5 News at 5am</title>
-    <desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71hT4mwSapL._UR1920,1080_FMpng_.jpg" />
-    <rating system="us">
-      <value>16+</value>
-    </rating>
-  </programme>
-  <programme start="20260328040000 -0700" stop="20260328050000 -0700" channel="WMAQ by Peacock">
-    <title lang="en">NBC 5 News at 6am</title>
-    <desc lang="en">The latest local news, weather and investigative stories impacting your community.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71hT4mwSapL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260328043000 -0700" stop="20260328050000 -0700" channel="KPNX by Peacock">
+    <title lang="en">Bright Wealth Management Show</title>
+    <desc lang="en">Join the Bright Wealth Management team as they discuss common sense retirement planning.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81d35a48KEL._UR1920,1080_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
@@ -524,14 +540,6 @@
     <display-name lang="en">Jeopardy</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/jeopardy._SL170_FMpng_.png" />
   </channel>
-  <programme start="20260327201300 -0700" stop="20260327203900 -0700" channel="Jeopardy">
-    <title lang="en">Jeopardy!</title>
-    <desc lang="en">The Emmy-winning quiz show features a unique answer-and-question format.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1k6dzT4KiL._UR1920,1080_FMpng_.jpg" />
-    <rating system="us">
-      <value>ALL</value>
-    </rating>
-  </programme>
   <programme start="20260327203900 -0700" stop="20260327210500 -0700" channel="Jeopardy">
     <title lang="en">James Holzhauer Original Run: Game 6</title>
     <desc lang="en">Securing the top 16 single-day winnings.</desc>
@@ -1548,6 +1556,14 @@
     <title lang="en">Top Gear: Best Of</title>
     <desc lang="en">Second-hand bargains.</desc>
     <icon src="https://m.media-amazon.com/images/I/81oU3pARxDL._UR1920,1080_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20260328043800 -0700" stop="20260328054500 -0700" channel="Top Gear UK">
+    <title lang="en">Top Gear</title>
+    <desc lang="en">The Supercar Shootout in Italy.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81kFdeto8CL._UR1920,1080_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
@@ -2772,6 +2788,14 @@
       <value>7+</value>
     </rating>
   </programme>
+  <programme start="20260328043800 -0700" stop="20260328061500 -0700" channel="Starz Kids &amp; Family">
+    <title lang="en">Oddball</title>
+    <desc lang="en">A dog protects a penguin sanctuary from foxes.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81o9klZbGUL._UR1920,1080_FMpng_.jpg" />
+    <rating system="us">
+      <value>7+</value>
+    </rating>
+  </programme>
   <channel id="Encore">
     <display-name lang="en">Encore</display-name>
     <icon src="https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/starz_encore._SL170_FMpng_.png" />
@@ -3412,6 +3436,14 @@
     <title lang="en">Embarazo</title>
     <desc lang="en">Germán has the task of planting small trees that the mayor's office has given them. Someone in the building is pregnant.</desc>
     <icon src="https://m.media-amazon.com/images/I/81IEBF0iEpL._UR1920,1080_FMpng_.jpg" />
+    <rating system="us">
+      <value>16+</value>
+    </rating>
+  </programme>
+  <programme start="20260328043900 -0700" stop="20260328050600 -0700" channel="Vecinos">
+    <title lang="en">¡Voy a ser papá!</title>
+    <desc lang="en">Silvia le confiesa a Luis que está embarazada y él comienza a comprar muchas cosas para el bebé. Magdalena y su familia se vuelven ricos y comienzan a derrochar su dinero.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91BMnwc3cVL._UR1920,1080_FMpng_.jpg" />
     <rating system="us">
       <value>16+</value>
     </rating>
