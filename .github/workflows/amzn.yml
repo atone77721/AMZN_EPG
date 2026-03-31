@@ -5,6 +5,9 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write   # 🔥 REQUIRED
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,19 +21,13 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install node-fetch@3
-
-      # 🔥 Decode Base64 → generate.js
       - name: Decode script
         run: |
           echo "${{ secrets.GENERATE_JS_B64 }}" | base64 -d > generate.js
 
-      # 🚀 Run script
       - name: Run generator
         run: node generate.js
 
-      # 💾 Commit result
       - name: Commit & push
         run: |
           git config user.name "EPG Bot"
