@@ -1,0 +1,43 @@
+name: Generate EPG (B64)
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install node-fetch@3
+
+      # 🔥 Decode Base64 → generate.js
+      - name: Decode script
+        run: |
+          echo "${{ secrets.GENERATE_JS_B64 }}" | base64 -d > generate.js
+
+      # 🚀 Run script
+      - name: Run generator
+        run: node generate.js
+
+      # 💾 Commit result
+      - name: Commit & push
+        run: |
+          git config user.name "EPG Bot"
+          git config user.email "bot@users.noreply.github.com"
+
+          git add output/epg.xml
+
+          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 Auto update EPG"
+
+          git push
