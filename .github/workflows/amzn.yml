@@ -1,4 +1,4 @@
-name: Generate EPG (B64)
+name: Generate AMAZON EPG
 
 on:
   schedule:
@@ -23,18 +23,18 @@ jobs:
 
       - name: Decode script
         run: |
-          echo "${{ secrets.GENERATE_JS_B64 }}" | base64 -d > generate.js
+          echo "${{ secrets.GENERATE_JS_B64 }}" | base64 -d > amzn.js
 
-      - name: Run generator
-        run: node generate.js
+      - name: Run epg_generator
+        run: node amazon.js
 
       - name: Commit & push
         run: |
           git config user.name "EPG Bot"
           git config user.email "bot@users.noreply.github.com"
 
-          git add output/epg.xml
+          git add data/amazon.xml
 
-          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 Auto update EPG"
+          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 Auto update AMZN EPG"
 
           git push
