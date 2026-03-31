@@ -26,7 +26,7 @@ jobs:
           echo "${{ secrets.GENERATE_JS_B64 }}" | base64 -d > amzn.js
 
       - name: Run epg_generator
-        run: node amazon.js
+        run: node amzn.js
 
       - name: Commit & push
         run: |
